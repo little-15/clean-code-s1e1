@@ -12,6 +12,10 @@ html {
   text-align: right;
 }
 
+.info-figure {
+  margin: 0;
+}
+
 .info-img {
   width: 100%;
 }
@@ -88,8 +92,8 @@ html {
 .tasks-list-input {
   margin: 0;
   font-size: 18px;
-  line-height: 18px;
-  height: 21px;
+  line-height: 19px;
+  height: 19px;
   padding: 0 9px;
   border: 1px solid #ddd;
   background: #fff;
@@ -107,7 +111,7 @@ html {
 /* New Task */
 .add-task-heading {
   display: block;
-  margin: 0 0 20px;
+  margin: 13px 0 20px;
 }
 
 #new-task {
@@ -141,6 +145,10 @@ html {
 
 .tasks-list-item > .tasks-list-input {
   width: 226px;
+}
+
+.button.delete {
+  height: 32px;
 }
 
 .button.delete .button-img {
