@@ -12,11 +12,11 @@ body {
   text-align: right;
 }
 
-.info img {
+.info-img {
   width: 100%;
 }
 
-.info .more-inf {
+.info-link {
   font-family: fantasy, cursive;
 }
 
@@ -28,19 +28,19 @@ body {
 
 }
 
-.centered-main-page-element {
+.main {
   display: block;
   width: 500px;
   margin: 0 auto 0;
 }
 
-.task {
+.task-name {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
 }
 
-.task-row-wrapper {
+.add-task-row {
   display: flex;
 }
 
