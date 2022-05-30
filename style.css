@@ -65,7 +65,7 @@
 
 .button {
   background: none;
-  border: 0px;
+  border: 0;
   color: #888;
   font-size: 15px;
   width: 60px;
@@ -177,11 +177,11 @@
   display: none;
 }
 
-.tasks-list__item.edit-mode .tasks-list__input {
+.tasks-list__item_edit-mode .tasks-list__input {
   display: inline-block;
   width: 224px;
 }
 
-.tasks-list__item.edit-mode .tasks-list__label {
+.tasks-list__item_edit-mode .tasks-list__label {
   display: none;
 }
