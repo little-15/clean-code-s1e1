@@ -1,5 +1,5 @@
 /* Basic Style */
-html {
+.body {
   background-color: #f8f8f8;
   color: #333;
   font-family: Lato, sans-serif;
@@ -130,12 +130,9 @@ html {
   align-items: center;
 }
 
-.tasks-list__item > * {
-  vertical-align: middle;
-}
-
 .tasks-list__item .checkbox {
   margin: 0 10px;
+  vertical-align: middle;
 }
 
 .tasks-list__label {
@@ -143,10 +140,16 @@ html {
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
+  vertical-align: middle;
 }
 
 .tasks-list__input {
   width: 226px;
+  vertical-align: middle;
+}
+
+.tasks-list__item .button {
+  vertical-align: middle;
 }
 
 .button_delete {
